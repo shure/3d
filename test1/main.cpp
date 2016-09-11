@@ -96,7 +96,6 @@ int main(int argc, char *argv[])
 		    printf("Home\n");
 		    break;
 		case SDLK_ESCAPE:
-		case SDLK_q:
 		    printf("Escape\n");
 		    quit = true;
 		    break;
